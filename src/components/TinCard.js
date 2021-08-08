@@ -3,6 +3,8 @@ import { View, Text, ImageBackground, StyleSheet } from 'react-native'
 
 const TinCard = ({user}) => {
 
+
+
     return (
         <View style={styles.card}>
         <ImageBackground source={{uri: user.image}} style={styles.image}>
